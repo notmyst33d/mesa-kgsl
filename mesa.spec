@@ -409,6 +409,7 @@ export MESON_PACKAGE_CACHE_DIR="%{cargo_registry}/"
   -Dshared-glapi=enabled \
   -Dgles1=enabled \
   -Dgles2=enabled \
+  -Dfreedreno-kmds=kgsl \
   -Dopengl=true \
   -Dgbm=enabled \
   -Dglx=dri \
